@@ -1,0 +1,64 @@
+
+body{
+    height: 100vh;
+    width: 100%;
+    background: #f3eddf;
+}
+
+h1{background: #736c5d;
+    color: #f3eddf;
+    padding: 10px;
+    Margin:0;
+}
+
+article{
+    font-family: arial;
+    width: 500px;
+    margin-top: 30px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+header input{
+    color: black;
+    padding-left: 15px;
+    border: none;
+    font-size: 15px;
+    border-radius: 5px;
+    outline: none; /*클릭시 테두리 안보임*/
+}
+
+header button{
+    border: none;
+    border-radius: 3px;
+    background: #736c5d;
+    cursor: pointer; /*손가락으로 바꾸기*/
+    color: #ffffff;
+}
+
+.Todolist li{
+    width: 650px;
+    list-style: none; /*숫자 없애기*/
+    line-height: 40px; /*줄간격*/
+    position: relative;
+    margin-bottom: 9px;
+    text-indent: 15px; /*들여쓰기*/
+    background: #ffffff;
+    border-radius: 5px;
+    font-weight: 400; /*굵기*/
+    cursor: pointer;
+}
+
+footer{
+    font-weight: 600;
+    text-indent: 15px;
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+    justify-content: right;
+}
+
+p {
+    /* 수평 중앙 정렬하기 */
+    text-align: center;
+  }
